@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainerSample", "src\ContainerSample\ContainerSample.csproj", "{720A8906-E993-4FE8-93FB-1CB2D3BBA6C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA87C950-AB1D-4C35-A791-A158C0D731D0}"
+	ProjectSection(SolutionItems) = preProject
+		build\k8.yml = build\k8.yml
+		build\readme.md = build\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6C9E9DDD-562A-49D1-A452-EAA7AFB1567D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{720A8906-E993-4FE8-93FB-1CB2D3BBA6C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720A8906-E993-4FE8-93FB-1CB2D3BBA6C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720A8906-E993-4FE8-93FB-1CB2D3BBA6C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720A8906-E993-4FE8-93FB-1CB2D3BBA6C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{720A8906-E993-4FE8-93FB-1CB2D3BBA6C4} = {6C9E9DDD-562A-49D1-A452-EAA7AFB1567D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {131F1879-DCD9-4E14-A29E-3D31ECD894DE}
+	EndGlobalSection
+EndGlobal
