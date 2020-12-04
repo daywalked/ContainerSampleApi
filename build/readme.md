@@ -4,8 +4,11 @@ curl http://localhost:8888/WeatherForecast
 
 
 kubectl delete service containerapi
-kubectl delete service containerapi
+kubectl delete deployment containerapi
 kubectl apply -f .\build\k8.yml
 
 kubectl get all
 curl http://localhost:30181/WeatherForecast
+
+kubectl delete service containerapi
+kubectl delete deployment containerapi
